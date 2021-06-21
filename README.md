@@ -1,4 +1,4 @@
-# shapes
+# Shapes
 <html>
 <h1> Shapes library</h1>
 
