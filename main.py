@@ -9,5 +9,5 @@ print("area_square: ",square.area())
 print("perimeter_square: ",square.perimeter())
 
 circle = shapes.circle(7)
-print("circle_perimeter: ", circle.area())
-print("circle_area", circle.perimeter())
+print("circle_perimeter: ", circle.area)
+print("circle_area", circle.perimeter)
