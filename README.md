@@ -8,7 +8,7 @@
   <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example.png"></img>
   <h4>Output for the example: </h4>
   <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example_output.png"></img>
-  <h3>The main.py is an example of the library use.</h3>
+  <h3>The <a href="https://github.com/Bikram-ghuku/shapes/blob/main/main.py">main.py</a> is an example of the library use.</h3>
 
 <h4>Feel free to fork the repo and create pull request to fix error and/or new feature</h4>
 </html>
