@@ -18,15 +18,15 @@
 	</tr>
 	<tr>
 		<td>Rectangle</td>
-		<td>area, perimeter</td>
+		<td>Area, Perimeter</td>
 	</tr>
 	<tr>
 		<td>Square</td>
-		<td>area, perimeter</td>
+		<td>Area, Perimeter</td>
 	</tr>
 	<tr>
 		<td>Circle</td>
-		<td>area, perimeter</td>
+		<td>Area, Perimeter</td>
 	</tr>
 	<tr>
 		<td>Triangle</td>
