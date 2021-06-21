@@ -22,7 +22,7 @@
 	</tr>
 	<tr>
 		<td>square</td>
-		</td>area, perimeter</td>
+		<td>area, perimeter</td>
 	</td>
 
 </table>
