@@ -17,14 +17,21 @@
 		<td><bold>Supported Functions</bold></td>
 	</tr>
 	<tr>
-		<td>rectangle</td>
+		<td>Rectangle</td>
 		<td>area, perimeter</td>
 	</tr>
 	<tr>
-		<td>square</td>
+		<td>Square</td>
 		<td>area, perimeter</td>
-	</td>
-
+	</tr>
+	<tr>
+		<td>Circle</td>
+		<td>area, perimeter</td>
+	</tr>
+	<tr>
+		<td>Triangle</td>
+		<td>Area</td>
+	</tr>
 </table>
 <h4>Feel free to fork the repo and create pull request to fix error and/or new feature. :)</h4>
 </html>
