@@ -11,3 +11,6 @@ print("perimeter_square: ",square.perimeter())
 circle = shapes.circle(7)
 print("circle_perimeter: ", circle.area)
 print("circle_area", circle.perimeter)
+
+tangle = shapes.triangle(A=2, B=3, C=3)
+print(tangle.perimeter())
