@@ -30,7 +30,7 @@
 	</tr>
 	<tr>
 		<td>Triangle</td>
-		<td>Area</td>
+		<td>Area, Perimeter</td>
 	</tr>
 </table>
 <h4>Feel free to fork the repo and create pull request to fix error and/or new feature. :)</h4>
