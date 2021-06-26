@@ -5,7 +5,7 @@
 <h3>Bored of defining constants and using formula for finding area and perimeter of shape??</h3>
 <h3>Download our shapes library and use it in your code for easy calculation of area and perimeter</h3>
   <h4> Provided an example for your help: </h4>
-  <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example.png"></img>
+  <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example2.png"></img>
   <h4>Output for the example: </h4>
   <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example_output.png"></img>
   <h3>The <a href="https://github.com/Bikram-ghuku/shapes/blob/main/main.py">main.py</a> is an example of the library use.</h3>
