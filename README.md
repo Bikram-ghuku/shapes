@@ -1,7 +1,7 @@
 # Shapes
 ![Github Top Language](https://img.shields.io/github/languages/top/Bikram-ghuku/shapes)
 ![Github release](https://img.shields.io/github/v/release/Bikram-ghuku/shapes)
-<html>
+
 <h1> Shapes library</h1>
 
 <h3>Bored of defining constants and using formula for finding area and perimeter of shape??</h3>
@@ -36,4 +36,4 @@
 	</tr>
 </table>
 <h4>Feel free to fork the repo and create pull request to fix error and/or new feature. :)</h4>
-</html>
+
