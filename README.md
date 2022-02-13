@@ -1,4 +1,6 @@
 # Shapes
+[Github Code](https://img.shields.io/github/languages/top/Bikram-ghuku/shapes)
+[Github release](https://img.shields.io/github/v/release/Bikram-ghuku/shapes)
 <html>
 <h1> Shapes library</h1>
 
