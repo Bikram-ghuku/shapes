@@ -4,7 +4,7 @@ class square(squared.square):
     def __init__(self, length):
         super().__init__(length)
         self.area = squared.square(length).area()
-        self.perimeter = squared.square(length).perimeter()
+        self.perimeter = int(squared.square(length).perimeter())
 
 class circle(circled.circle):
     def __init__(self, radius):
