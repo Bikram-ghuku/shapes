@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'shapes',         
-  packages = ['shapes'],   
+  name = 'geo-shapes',         
+  packages = ['geo-shapes'],   
   version = '0.1',      
   license='MIT',       
   description = 'Shapes calculation made easy',   
