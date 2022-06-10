@@ -8,6 +8,7 @@ circle = shapes.circle(7)
 tangle = shapes.triangle(A=2, B=3, C=3)
 sphere = shapes.sphere(5)
 ellipse = shapes.ellipse(20, 10)
+cylinder = shapes.cylinder(3, 10)
 
 
 def test_rectrangle_perimeter():
@@ -63,3 +64,18 @@ def test_ellipse_perimeter():
 def test_ellipse_area():
     assert ellipse.area == math.pi * 200, "test failed"
     assert type(ellipse.area) == float, "datatype error"
+
+
+def test_cylinder_volume():
+    assert cylinder.volume == math.pi * 90, "test failed"
+    assert type(cylinder.volume) == float, "datatype error"
+
+
+def test_cylinder_total_surf_area():
+    assert cylinder.totalSurfaceArea == math.pi * 78, "test failed"
+    assert type(cylinder.totalSurfaceArea) == float, "datatype error"
+
+
+def test_cylinder_lateral_surf_area():
+    assert cylinder.lateralSurfaceArea == math.pi * 60, "test failed"
+    assert type(cylinder.totalSurfaceArea) == float, "datatype error"
