@@ -19,3 +19,7 @@ cylinder = shapes.cylinder(5, 2)
 print("cylinder_lateral_surface_area: ", cylinder.lateralSurfaceArea)
 print("cylinder_total_surface_area: ", cylinder.totalSurfaceArea)
 print("cylinder_volume: ", cylinder.volume)
+
+sphere = shapes.sphere(5)
+print("sphere_area: ", sphere.area)
+print("sphere_volume: ", sphere.volume)
