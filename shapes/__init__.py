@@ -1,4 +1,4 @@
-from . import squared, circled, triangled, rectangled, cylindered, sphered
+from . import squared, circled, triangled, rectangled, cylindered, sphered, ellipsed
 
 
 class square(squared.square):
@@ -44,3 +44,10 @@ class sphere(sphered.sphere):
         super().__init__(radius)
         self.area = sphered.sphere(radius).area()
         self.volume = sphered.sphere(radius).volume()
+
+
+class ellipse(ellipsed.ellipse):
+    def __init__(self, major_semiaxis, minor_semiaxis):
+        super().__init__(major_semiaxis, minor_semiaxis)
+        self.perimeter = ellipsed.ellipse(major_semiaxis, minor_semiaxis).perimeter()
+        self.area = ellipsed.ellipse(major_semiaxis, minor_semiaxis).area()
