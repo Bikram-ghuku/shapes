@@ -5,6 +5,7 @@ rectangle = shapes.rectangle(16, 18)
 square = shapes.square(2)
 circle = shapes.circle(7)
 tangle = shapes.triangle(A=2, B=3, C=3)
+sphere = shapes.sphere(5)
 
 
 def test_rectrangle_perimeter():
@@ -40,3 +41,13 @@ def test_circle_area():
 def test_triangle_area():
     assert tangle.perimeter == 8.0, "test failed"
     assert type(tangle.perimeter) == float, "datatype error"
+
+
+def test_sphere_area():
+    assert sphere.area == 314.1592653589793, "test failed"
+    assert type(sphere.area) == float, "datatype error"
+
+
+def test_sphere_volume():
+    assert sphere.volume == 523.5987755982989, "test failed"
+    assert type(sphere.volume) == float, "datatype error"
