@@ -23,3 +23,7 @@ print("cylinder_volume: ", cylinder.volume)
 sphere = shapes.sphere(5)
 print("sphere_area: ", sphere.area)
 print("sphere_volume: ", sphere.volume)
+
+ellipse = shapes.ellipse(10, 20)
+print("ellipse_area: ", ellipse.area)
+print("ellipse_perimeter: ", ellipse.perimeter)

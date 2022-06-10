@@ -1,4 +1,5 @@
 import pytest
+import math
 import shapes
 
 rectangle = shapes.rectangle(16, 18)
@@ -6,6 +7,7 @@ square = shapes.square(2)
 circle = shapes.circle(7)
 tangle = shapes.triangle(A=2, B=3, C=3)
 sphere = shapes.sphere(5)
+ellipse = shapes.ellipse(20, 10)
 
 
 def test_rectrangle_perimeter():
@@ -51,3 +53,13 @@ def test_sphere_area():
 def test_sphere_volume():
     assert sphere.volume == 523.5987755982989, "test failed"
     assert type(sphere.volume) == float, "datatype error"
+
+
+def test_ellipse_perimeter():
+    assert round(ellipse.perimeter, 4) == 96.8845, "test failed"
+    assert type(ellipse.perimeter) == float, "datatype error"
+
+
+def test_ellipse_area():
+    assert ellipse.area == math.pi * 200, "test failed"
+    assert type(ellipse.area) == float, "datatype error"
