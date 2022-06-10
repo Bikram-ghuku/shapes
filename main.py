@@ -14,3 +14,8 @@ print("circle_perimeter", circle.perimeter)
 
 tangle = shapes.triangle(A=2, B=3, C=3)
 print(tangle.perimeter)
+
+cylinder = shapes.cylinder(5,2)
+print("cylinder_lateral_surface_area: ", cylinder.lateralSurfaceArea)
+print("cylinder_total_surface_area: ", cylinder.totalSurfaceArea)
+print("cylinder_volume: ", cylinder.volume)

@@ -1,4 +1,4 @@
-from . import squared, circled, triangled, rectangled
+from . import squared, circled, triangled, rectangled, cylindered
 
 class square(squared.square):
     def __init__(self, length):
@@ -23,3 +23,10 @@ class rectangle(rectangled.rectangle):
         super().__init__(height, width)
         self.area = rectangled.rectangle(height, width).area()
         self.perimeter = rectangled.rectangle(height, width).perimeter()
+
+class cylinder(cylindered.cylinder):
+    def __init__(self, radius, height):
+        super().__init__(radius, height)
+        self.lateralSurfaceArea = cylindered.cylinder(radius, height).lateralSurfaceArea()
+        self.totalSurfaceArea = cylindered.cylinder(radius, height).totalSurfaceArea()
+        self.volume = cylindered.cylinder(radius, height).volume()
