@@ -7,9 +7,9 @@ def fully_int_second(t, k):
 
 
 class ellipse:
-    def __init__(self, a, b):
-        self.a = max(a, b)
-        self.b = min(b, a)
+    def __init__(self, major_semiaxis, minor_semiaxis):
+        self.a = major_semiaxis
+        self.b = minor_semiaxis
 
     def perimeter(self):
         eccentricity = math.sqrt((self.a * 2) ** 2 - (self.b * 2) ** 2) / (self.a * 2)

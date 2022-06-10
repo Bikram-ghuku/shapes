@@ -47,7 +47,7 @@ class sphere(sphered.sphere):
 
 
 class ellipse(ellipsed.ellipse):
-    def __init__(self, a, b):
-        super().__init__(a, b)
-        self.perimeter = ellipsed.ellipse(a, b).perimeter()
-        self.area = ellipsed.ellipse(a, b).area()
+    def __init__(self, major_semiaxis, minor_semiaxis):
+        super().__init__(major_semiaxis, minor_semiaxis)
+        self.perimeter = ellipsed.ellipse(major_semiaxis, minor_semiaxis).perimeter()
+        self.area = ellipsed.ellipse(major_semiaxis, minor_semiaxis).area()
