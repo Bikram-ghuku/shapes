@@ -36,6 +36,18 @@
 		<td>Triangle</td>
 		<td>Area, Perimeter</td>
 	</tr>
+	<tr>
+		<td>Ellipse</td>
+		<td>Area, Perimeter</td>
+	</tr>
+	<tr>
+		<td>Sphere</td>
+		<td>Area, Volume</td>
+	</tr>
+	<tr>
+		<td>Cylinder</td>
+		<td>Total Surfce area, Lateral surface area, Volume</td>
+	</tr>
 </table>
 <h4>Feel free to fork the repo and create pull request to fix error and/or new feature. :)</h4>
 
