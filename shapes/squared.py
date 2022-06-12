@@ -1,4 +1,4 @@
-class square:
+class Square:
     def __init__(self, length):
         self.length = length
         diagonal = (2 * float(length) ** 2) ** 0.5

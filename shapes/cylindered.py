@@ -1,21 +1,21 @@
 import math
 
 
-class cylinder:
+class Cylinder:
     def __init__(self, radius, height):
         self.radius = radius
         self.height = height
 
-    def lateralSurfaceArea(self):
-        lateralSurfaceArea = 2 * math.pi * float(self.radius * self.height)
-        return lateralSurfaceArea
+    def lateral_surface_area(self):
+        lateral_surface_area = 2 * math.pi * float(self.radius * self.height)
+        return lateral_surface_area
 
-    def totalSurfaceArea(self):
-        totalSurfaceArea = (
+    def total_surface_area(self):
+        total_surface_area = (
             2 * math.pi * float(self.radius * self.height)
             + 2 * math.pi * float(self.radius) ** 2
         )
-        return totalSurfaceArea
+        return total_surface_area
 
     def volume(self):
         volume = math.pi * float(self.radius) ** 2 * self.height

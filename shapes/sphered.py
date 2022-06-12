@@ -1,7 +1,7 @@
 import math
 
 
-class sphere:
+class Sphere:
     def __init__(self, radius):
         self.radius = radius
 

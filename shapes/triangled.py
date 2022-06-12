@@ -1,7 +1,4 @@
-sides = []
-
-
-class triangle:
+class Triangle:
     def __init__(self, **kwargs):
         self.lend = len(kwargs)
         self.a = kwargs["A"]
@@ -20,7 +17,7 @@ class triangle:
             ) ** 0.5
         else:
             raise Exception(
-                "Input should either be of length 3 , Received: {}".format(self.len)
+                "Input should either be of length 3 , Received: {}".format(self.lend)
             )
         return area
 
@@ -30,7 +27,7 @@ class triangle:
         else:
             raise Exception(
                 "Unidentified input, perimeter requires 3 inputs recived {}".format(
-                    self.len
+                    self.lend
                 )
             )
 
