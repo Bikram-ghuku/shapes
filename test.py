@@ -2,16 +2,16 @@ import pytest
 import math
 import shapes
 
-rectangle = shapes.rectangle(16, 18)
-square = shapes.square(2)
-circle = shapes.circle(7)
-tangle = shapes.triangle(A=2, B=3, C=3)
-sphere = shapes.sphere(5)
-ellipse = shapes.ellipse(20, 10)
-cylinder = shapes.cylinder(3, 10)
+rectangle = shapes.Rectangle(16, 18)
+square = shapes.Square(2)
+circle = shapes.Circle(7)
+tangle = shapes.Triangle(A=2, B=3, C=3)
+sphere = shapes.Sphere(5)
+ellipse = shapes.Ellipse(20, 10)
+cylinder = shapes.Cylinder(3, 10)
 
 
-def test_rectrangle_perimeter():
+def test_rectangle_perimeter():
     assert rectangle.perimeter == 68.0, "test failed"
     assert type(rectangle.perimeter) == float, "datatype error"
 
@@ -72,10 +72,10 @@ def test_cylinder_volume():
 
 
 def test_cylinder_total_surf_area():
-    assert cylinder.totalSurfaceArea == math.pi * 78, "test failed"
-    assert type(cylinder.totalSurfaceArea) == float, "datatype error"
+    assert cylinder.total_surface_area == math.pi * 78, "test failed"
+    assert type(cylinder.total_surface_area) == float, "datatype error"
 
 
 def test_cylinder_lateral_surf_area():
-    assert cylinder.lateralSurfaceArea == math.pi * 60, "test failed"
-    assert type(cylinder.totalSurfaceArea) == float, "datatype error"
+    assert cylinder.lateral_surface_area == math.pi * 60, "test failed"
+    assert type(cylinder.total_surface_area) == float, "datatype error"

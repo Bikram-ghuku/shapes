@@ -1,7 +1,7 @@
 import math
 
 
-class circle:
+class Circle:
     def __init__(self, radius):
         self.radius = radius
 

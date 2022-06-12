@@ -1,53 +1,52 @@
 from . import squared, circled, triangled, rectangled, cylindered, sphered, ellipsed
 
 
-class square(squared.square):
+class Square(squared.Square):
     def __init__(self, length):
         super().__init__(length)
-        self.area = squared.square(length).area()
-        self.perimeter = squared.square(length).perimeter()
+        self.area = super().area()
+        self.perimeter = super().perimeter()
 
 
-class circle(circled.circle):
+class Circle(circled.Circle):
     def __init__(self, radius):
         super().__init__(radius)
-        self.area = circled.circle(radius).area()
-        self.perimeter = circled.circle(radius).perimeter()
+        self.area = super().area()
+        self.perimeter = super().perimeter()
 
 
-class triangle(triangled.triangle):
+class Triangle(triangled.Triangle):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.area = triangled.triangle(**kwargs).area()
-        self.perimeter = triangled.triangle(**kwargs).perimeter()
+        self.area = super().area()
+        self.perimeter = super().perimeter()
 
 
-class rectangle(rectangled.rectangle):
+class Rectangle(rectangled.Rectangle):
     def __init__(self, height, width):
         super().__init__(height, width)
-        self.area = rectangled.rectangle(height, width).area()
-        self.perimeter = rectangled.rectangle(height, width).perimeter()
+        self.area = super().area()
+        self.perimeter = super().perimeter()
 
 
-class cylinder(cylindered.cylinder):
+class Cylinder(cylindered.Cylinder):
     def __init__(self, radius, height):
         super().__init__(radius, height)
-        self.lateralSurfaceArea = cylindered.cylinder(
-            radius, height
-        ).lateralSurfaceArea()
-        self.totalSurfaceArea = cylindered.cylinder(radius, height).totalSurfaceArea()
-        self.volume = cylindered.cylinder(radius, height).volume()
+        self.lateral_surface_area = super().lateral_surface_area()
+        self.total_surface_area = super().total_surface_area()
+        self.volume = super().volume()
 
 
-class sphere(sphered.sphere):
+class Sphere(sphered.Sphere):
     def __init__(self, radius):
         super().__init__(radius)
-        self.area = sphered.sphere(radius).area()
-        self.volume = sphered.sphere(radius).volume()
+        self.area = super().area()
+        self.volume = super().volume()
 
 
-class ellipse(ellipsed.ellipse):
-    def __init__(self, major_semiaxis, minor_semiaxis):
-        super().__init__(major_semiaxis, minor_semiaxis)
-        self.perimeter = ellipsed.ellipse(major_semiaxis, minor_semiaxis).perimeter()
-        self.area = ellipsed.ellipse(major_semiaxis, minor_semiaxis).area()
+class Ellipse(ellipsed.Ellipse):
+    def __init__(self, major_semi_axis, minor_semi_axis):
+        super().__init__(major_semi_axis, minor_semi_axis)
+        self.perimeter = super().perimeter()
+        self.area = super().area()
+
