@@ -9,6 +9,8 @@ tangle = shapes.Triangle(A=2, B=3, C=3)
 sphere = shapes.Sphere(5)
 ellipse = shapes.Ellipse(20, 10)
 cylinder = shapes.Cylinder(3, 10)
+spheroid_a_less_c = shapes.Spheroid(5, 14)
+spheroid_c_less_a = shapes.Spheroid(14, 5)
 
 
 def test_rectangle_perimeter():
@@ -79,3 +81,20 @@ def test_cylinder_total_surf_area():
 def test_cylinder_lateral_surf_area():
     assert cylinder.lateral_surface_area == math.pi * 60, "test failed"
     assert type(cylinder.total_surface_area) == float, "datatype error"
+
+
+def test_spheroid_volume():
+    assert round(spheroid_a_less_c.volume, 5) == 1466.07657, "test failed"
+    assert round(spheroid_c_less_a.volume, 5) == 4105.01440, "test failed"
+    assert type(spheroid_a_less_c.volume) == float, "datatype error"
+    assert type(spheroid_c_less_a.volume) == float, "datatype error"
+
+
+def test_spheroid_area_a_less_c():
+    assert round(spheroid_a_less_c.area, 5) == 724.76435, "test failed"
+    assert type(spheroid_a_less_c.area) == float, "datatype error"
+
+
+def test_spheroid_area_c_less_a():
+    assert round(spheroid_c_less_a.area, 5) == 1515.58393, "test failed"
+    assert type(spheroid_c_less_a.area) == float, "datatype error"
