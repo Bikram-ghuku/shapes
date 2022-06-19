@@ -67,7 +67,7 @@ jobs:
             echo -e "password = $PYPI_PASSWORD" >> ~/.pypirc
       - run:
           name: Upload to pypi
-          command: twine upload dist/*
+          command: twine upload --skip-existing dist/*
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
