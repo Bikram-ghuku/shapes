@@ -3,7 +3,7 @@
 ![Github release](https://img.shields.io/github/v/release/Bikram-ghuku/shapes)
 ![Github License](https://img.shields.io/github/license/Bikram-ghuku/shapes)
 ![Github Workflow tests](https://github.com/Bikram-ghuku/shapes/actions/workflows/python-package.yml/badge.svg)
-![Codecov result](https://codecov.io/gh/bikram-ghuku/shapes/branch/main/graph/badge.svg)
+[![Codecov result](https://codecov.io/gh/bikram-ghuku/shapes/branch/main/graph/badge.svg)](https://codecov.io/gh/Bikram-ghuku/shapes)
 
 <h1> Shapes library</h1>
 
