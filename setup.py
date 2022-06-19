@@ -1,4 +1,10 @@
 from setuptools import find_packages, setup
+def readme():
+    """print long description"""
+    with open('README.rst') as f:
+        return f.read()
+
+
 setup(
     name='GeometricShapes',
     packages=find_packages(include=['shapes']),
