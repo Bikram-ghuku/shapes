@@ -39,10 +39,19 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command: pytest test.py
       - run:
-          name: Generate coverage
-          command: coverage run test.py
+          name: Run coverage
+          command: coverage run -m pytest test.py
+
+      - run:
+          name: generate coverage report
+          command: coverage report
+          
+      - run:
+          name: Generate coverage data
+          command: coverage json
+
       - codecov/upload:
-          file: coverage/coverage-final.json
+          file: coverage.json
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
