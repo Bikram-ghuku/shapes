@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 def readme():
     """print long description"""
-    with open('README.md') as f:
+    with open('README.rst') as f:
         return f.read()
 
 
@@ -11,6 +11,7 @@ setup(
     version='0.1.1',
     description='Making calculations of geometric shapes easier',
     author='BikramGhuku',
+    long_description=readme(),
     url="https://github.com/Bikram-ghuku/shapes",
     license='MIT',
     install_requires=['scipy==1.8.1'],
