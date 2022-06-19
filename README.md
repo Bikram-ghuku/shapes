@@ -14,6 +14,7 @@
   <h4>Output for the example: </h4>
   <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example2_output.png"></img>
   <h3>The <a href="https://github.com/Bikram-ghuku/shapes/blob/main/main.py">main.py</a> is an example of the library use.</h3>
+  
   ## To install the library
   #### Clone the repo
   ```shell
