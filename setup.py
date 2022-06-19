@@ -1,9 +1,8 @@
 from setuptools import find_packages, setup
-def readme():
-    """print long description"""
-    with open('README.rst') as f:
-        return f.read()
+from pathlib import Path
 
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='GeometricShapes',
@@ -11,7 +10,8 @@ setup(
     version='0.1.2',
     description='Making calculations of geometric shapes easier',
     author='BikramGhuku',
-    long_description=readme(),
+    long_description=long_description,
+    long_description_content_type='text/markdown'
     url="https://github.com/Bikram-ghuku/shapes",
     license='MIT',
     install_requires=['scipy==1.8.1'],
