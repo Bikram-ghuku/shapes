@@ -39,3 +39,5 @@ jobs:
     - name: Test with pytest
       run: |
         pytest test.py
+    - name: Build library
+      run: python setup.py bdist_wheel
