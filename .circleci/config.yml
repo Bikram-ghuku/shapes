@@ -60,6 +60,12 @@ jobs:
           command: pip install twine
 
       - run:
+          name: init .pypirc
+          command: |
+            echo -e "[pypi]" >> ~/.pypirc
+            echo -e "username = bikramghuku05" >> ~/.pypirc
+            echo -e "password = $PYPI_PASSWORD" >> ~/.pypirc
+      - run:
           name: Upload to pypi
           command: twine upload dist/*
 # Invoke jobs via workflows
