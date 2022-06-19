@@ -44,7 +44,7 @@ class Cylinder(cylindered.Cylinder):
         super().__init__(radius, height)
         self.lateral_surface_area = super().lateral_surface_area()
         self.total_surface_area = super().total_surface_area()
-        self.volume = super.volume()
+        self.volume = super().volume()
 
 
 class Sphere(sphered.Sphere):
