@@ -18,17 +18,17 @@
   ## To install the library
   #### Clone the repo
   ```shell
-  	git clone https://github.com/Bikram-ghuku/shapes.git
+git clone https://github.com/Bikram-ghuku/shapes.git
   ```
   #### Build the library
   ```Python
-  	pip install -r requirements.txt
-	python setup.py sdist bdist_wheel
+pip install -r requirements.txt
+python setup.py sdist bdist_wheel
   ```
   
   #### Install the repo from wheel 
   ```shell
-  cd dist && pip install GeometricShapes-0.1.0-py3-none-any.whl
+cd dist && pip install GeometricShapes-0.1.0-py3-none-any.whl
   ```
   
   <h3>Supported shapes:</h3>
