@@ -40,7 +40,7 @@ jobs:
           command: pytest test.py
       - run:
           name: Generate coverage
-          command: coverage test.py
+          command: coverage run test.py
       - codecov/upload:
           file: coverage/coverage-final.json
 # Invoke jobs via workflows
