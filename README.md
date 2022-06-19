@@ -38,8 +38,8 @@ cd dist && pip install GeometricShapes-0.1.0-py3-none-any.whl
   <h3>Supported shapes:</h3>
 <table>
 	<tr>
-		<td> # Shapes</td>
-		<td> # Supported Functions</td>
+		<td> Shapes </td>
+		<td> Supported Functions</td>
 	</tr>
 	<tr>
 		<td>Rectangle</td>
