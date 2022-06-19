@@ -54,6 +54,14 @@ jobs:
           name: Generate wheel
           command: |
             python setup.py sdist bdist_wheel
+            
+      - run:
+          name: Install twine
+          command: pip install twine
+
+      - run:
+          name: Upload to pypi
+          command: twine upload dist/*
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
