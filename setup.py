@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name='GeometricShapes',
     packages=find_packages(include=['shapes']),
-    version='0.1.0',
+    version='0.1.3',
     description='Making calculations of geometric shapes easier',
     author='BikramGhuku',
     long_description=long_description,
