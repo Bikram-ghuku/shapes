@@ -42,16 +42,13 @@ jobs:
           name: Run coverage
           command: coverage run -m pytest test.py
 
-      - run:
-          name: generate coverage report
-          command: coverage report
           
       - run:
           name: Generate coverage data
-          command: coverage json
+          command: coverage xml
 
       - codecov/upload:
-          file: coverage.json
+          file: coverage.xml
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
