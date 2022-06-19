@@ -8,7 +8,7 @@ def readme():
 setup(
     name='GeometricShapes',
     packages=find_packages(include=['shapes']),
-    version='0.1.1',
+    version='0.1.2',
     description='Making calculations of geometric shapes easier',
     author='BikramGhuku',
     long_description=readme(),
