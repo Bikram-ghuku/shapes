@@ -18,7 +18,7 @@
   ## To install the library
   #### Clone the repo
   ```shell
-git clone https://github.com/Bikram-ghuku/shapes.git
+git clone https://github.com/Bikram-ghuku/shapes.git && cd shapes
   ```
   #### Build the library
   ```Python
