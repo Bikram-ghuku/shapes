@@ -15,7 +15,7 @@
   <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example2_output.png"></img>
   <h3>The <a href="https://github.com/Bikram-ghuku/shapes/blob/main/main.py">main.py</a> is an example of the library use.</h3>
   
-  ## To install the library
+  ## To build the library
   #### Clone the repo
   ```shell
 git clone https://github.com/Bikram-ghuku/shapes.git && cd shapes
@@ -25,7 +25,11 @@ git clone https://github.com/Bikram-ghuku/shapes.git && cd shapes
 pip install -r requirements.txt
 python setup.py sdist bdist_wheel
   ```
-  
+  ## Installing the library
+  #### Install using pip
+  ```shell
+  pip install GeometricShapes
+  ```
   #### Install the repo from wheel 
   ```shell
 cd dist && pip install GeometricShapes-0.1.0-py3-none-any.whl
