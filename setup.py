@@ -11,7 +11,6 @@ setup(
     version='0.1.1',
     description='Making calculations of geometric shapes easier',
     author='BikramGhuku',
-    long_description=readme(),
     url="https://github.com/Bikram-ghuku/shapes",
     license='MIT',
     install_requires=['scipy==1.8.1'],
