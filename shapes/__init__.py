@@ -7,6 +7,7 @@ from . import (
     sphered,
     ellipsed,
     spheroid,
+    ellipsoid
 )
 
 
@@ -63,5 +64,11 @@ class Ellipse(ellipsed.Ellipse):
 class Spheroid(spheroid.Spheroid):
     def __init__(self, semi_axis_a, semi_axis_c):
         super().__init__(semi_axis_a, semi_axis_c)
+        self.area = super().area()
+        self.volume = super().volume()
+
+class Ellipsoid(ellipsoid.Ellipsoid):
+    def __init__(self, major_axis: float, middle_axis: float, minor_axis: float):
+        super.__init__(major_axis, middle_axis, minor_axis)
         self.area = super().area()
         self.volume = super().volume()
