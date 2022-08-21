@@ -10,10 +10,8 @@
 <h3>Bored of defining constants and using formula for finding area and perimeter of shape??</h3>
 <h3>Download our shapes library and use it in your code for easy calculation of area and perimeter</h3>
   <h4> Provided an example for your help: </h4>
-  <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example2.png"></img>
-  <h4>Output for the example: </h4>
-  <img src="https://raw.githubusercontent.com/Bikram-ghuku/shapes/main/assets/example2_output.png"></img>
-  <h3>The <a href="https://github.com/Bikram-ghuku/shapes/blob/main/main.py">main.py</a> is an example of the library use.</h3>
+  <img src="https://user-images.githubusercontent.com/40785379/185802375-4b03754d-3f3c-4bc7-8082-383df71de5d4.png"></img>
+  
   
   ## To build the library
   #### Clone the repo
