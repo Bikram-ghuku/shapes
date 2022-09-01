@@ -1,6 +1,11 @@
 import pytest
 import math
 import shapes
+import sentry_sdk
+
+sentry_sdk.init(
+    dsn="https://8fddf93bdb044fb7b551c14158df85e7@o1272929.ingest.sentry.io/6467004",
+    traces_sample_rate=1.0)
 
 rectangle = shapes.Rectangle(16, 18)
 square = shapes.Square(2)
