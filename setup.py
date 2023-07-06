@@ -14,7 +14,7 @@ setup(
     long_description_content_type='text/markdown',
     url="https://github.com/Bikram-ghuku/shapes",
     license='MIT',
-    install_requires=['scipy==1.8.1'],
+    install_requires=['scipy==1.10.0'],
     tests_require=['pytest==4.4.1'],
     test_suite='test.py',
 )
